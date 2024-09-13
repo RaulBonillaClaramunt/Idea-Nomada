@@ -4,7 +4,7 @@
   --washi-paper: #efe4d3;
   --oxidized-copper: #70b4b4;
   --cherry-blossom: #fabcc9;
-  --fuji-blue: #0f1b3f;
+  --fuji-blue: #070e24;
   --olive: #b1b15d;
 }
 
@@ -20,7 +20,7 @@ body {
 /* Header and Navigation */
 header {
   background-color: var(--aged-cedar);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,7 +40,7 @@ nav ul {
 nav ul li a {
   color: var(--washi-paper);
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   transition: background-color 0.3s ease;
 }
 
@@ -206,7 +206,7 @@ button[type="submit"]:hover {
 
 .social-links a {
   color: var(--washi-paper);
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
 .social-links a:hover {
