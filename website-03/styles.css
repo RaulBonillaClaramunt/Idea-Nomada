@@ -58,6 +58,7 @@ main {
 
 h1, h2 {
   color: var(--fuji-blue);
+  max-width: min-content;
 }
 
 /* Call-to-Action Buttons */
@@ -229,4 +230,21 @@ button[type="submit"]:hover {
   .social-links, nav ul, .language-switcher {
     margin: 0.5rem 0;
 }
+}
+
+/* Extra responsiveness for very small screens (max-width: 480px) */
+@media (max-width: 480px) {
+  nav ul li a {
+    padding: 0.8rem 0.5rem; /* Make the padding smaller */
+    font-size: 0.9rem; /* Slightly reduce font size */
+  }
+
+  .social-links a {
+    font-size: 1.2rem; /* Adjust size of icons for small screens */
+  }
+
+  .cta-button {
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem; /* Adjust the size of call-to-action buttons */
+  }
 }
